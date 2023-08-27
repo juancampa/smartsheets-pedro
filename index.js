@@ -1,8 +1,3 @@
-// Put your access token and sheet IDs in a file called env.txt
-// ACCESS_TOKEN=<your-access-token>
-// SOURCE_SHEET=<id>
-// DESTINATION_SHEET=<id>
-
 // Load env.txt
 require('dotenv').config({ path: require('path').resolve(process.cwd(), 'env.txt') });
 
