@@ -56,7 +56,7 @@ async function main() {
 
     // Iterate through months (columns 3 to 15)
     for (let monthIndex = 2; monthIndex < 14; monthIndex++) {
-      const month = `${monthIndex - 1}`;
+      const month = monthIndex - 1;
       const hoursPerWeek = row.cells[monthIndex].value;
       if (!hoursPerWeek || hoursPerWeek === '0') {
         continue;
