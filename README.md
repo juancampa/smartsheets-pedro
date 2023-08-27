@@ -7,3 +7,5 @@ ACCESS_TOKEN=<your-access-token>
 SOURCE_SHEET=<id>
 DESTINATION_SHEET=<id>
 ```
+
+ 3. Run `node index.js`
